@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Introduction to Kali Linux" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1620464089" ts_lastsave="1620628424">
+    <rich_text>EPISODE 4:
+INTRODUCTION TO KALI LINUX
+
+"LEARN PENETRATION TESTING AND LEVEL UP YOUR CAREER
+FROM BEGINNER TO PRO"</rich_text>
+    <node name="Commands &amp; Operations" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620464283" ts_lastsave="1620631263">
+      <rich_text>echo - To see your input echoed back
+man - Manual Pages
+ls - List Files &amp; Directories
+
+
+
+touch - To create new files
+cat - Short for concatenate, to display contents of files
+rm - Remove / Delete
+mv - Move
+cp - Copy
+mkdir - Make Directory
+rmdir - Remove Directory
+cd - Change Directory
+cd . - Current Directory
+cd .. - Directory before the current directory
+cd ~ - The user's home directory
+ln - File Linking / Hard Linking
+find - Find File &amp; Directories
+locate - Find files by name
+sudo - Superuser / Root / Run as Administrator
+nano - Terminal based Text Editor
+apt - Advanced Package Tool
+apt udpate &amp;&amp; apt upgrade
+ps - List of Processes
+kill - Kill a process
+passwd - Change current user's password
+pwd - Present Working Directory
+updatedb - Update File Structure Database
+ifconfig / ip - Interface Configuration - Configure / Display IP Addresses
+iwconfig - Configure / Display Wireless IP Addresses
+arp - Address Resolution Protocol - Associate IPs with MAC Addresses
+netstat - Network Statistics
+route - Network Details
+history - Terminal History
+ping - Send ICMP ECHO_REQUEST &amp; Receive ECHO_RESPONSE
+</rich_text>
+    </node>
+    <node name="Users &amp; Groups" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620465105" ts_lastsave="1620470620">
+      <rich_text>su - Switch User
+chown - Change Owner
+ls -la
+chmod - File Permissions
+
+
+
+1	Execute
+2	Write
+3	Execute + Write
+4	Read
+5	Read + Execute
+6	Read + Write
+7	Read + Write + Execute
+
+adduser - Add a new User
+addgroup - Add a new Group
+
+Unauthorized incidents - /var/log/auth.log</rich_text>
+    </node>
+    <node name="Basic Operators" unique_id="7" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620465619" ts_lastsave="1620730834">
+      <rich_text>ssh - Secure Shell Protocol
+&amp;&amp; - And Operator | ls &amp;&amp; echo “hello”
+&amp; - Background Operator
+$ - Environment Variable
+| - Pipe 
+			(grep - Pattern search)
+; - Also And but independent of the first command
+&gt; - Output Redirection
+&gt;&gt; - Same as Output Redirection but it appends (adds up the info)
+</rich_text>
+    </node>
+    <node name="Important FIles &amp; Directories" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620469666" ts_lastsave="1620731708">
+      <rich_text>/etc/passwd - Stores user information - Often used to see all the users on a system
+/etc/shadow - Has all the passwords of these users
+/tmp - Every file inside it gets deleted upon shutdown - used for temporary files
+/etc/sudoers - Used to control the sudo permissions of every user on the system -
+ - The directory where all your downloads, documents etc are. - The equivalent on Windows is C:\Users\&lt;user&gt;
+/root - The root user's home directory - The equivalent on Windows is C:\Users\Administrator
+/usr - Where all your software is installed 
+/opt - Where I keep my other Software installed
+
+</rich_text>
+    </node>
+    <node name="Services" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620473127" ts_lastsave="1620731857">
+      <rich_text>service &lt;name&gt; start/stop/status
+ssh
+
+systemctl
+
+
+
+</rich_text>
+    </node>
+    <node name="Weapons of Choice aka Tools" unique_id="10" prog_lang="custom-colors" tags="" readonly="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1620473616" ts_lastsave="1620474533">
+      <rich_text>nmap
+metasploit
+	msfconsole | msfvenom | meterpreter
+netdiscover - active/passive ARP reconnaissance tool
+Nessus
+Impacket
+Nikto
+Burpsuite
+dirbuster / gobuster / ffuf
+wordlist - /usr/share/wordlist
+
+Sources:
+CVEdetails.com
+Exploit-db.com
+Rapid7.com
+
+Goto Languages:
+Python 3 (.py)
+Bash (the </rich_text>
+      <rich_text underline="single" style="italic">B</rich_text>
+      <rich_text>ourne </rich_text>
+      <rich_text underline="single" style="italic">A</rich_text>
+      <rich_text>gain </rich_text>
+      <rich_text underline="single" style="italic">SH</rich_text>
+      <rich_text>ell - a command shell and a command language (.sh)
+Powershell (.ps1)
+Ruby (.rb) - metasploit
+Lua (.lua) - nmap scripts
+</rich_text>
+    </node>
+  </node>
+</cherrytree>
